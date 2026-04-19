@@ -13,11 +13,11 @@ class Homepage extends StatelessWidget {
         children: [
           //OBEN (Logo mittig)
           Padding(
-            padding: const EdgeInsets.only(top: 80),
+            padding: const EdgeInsets.only(top: 30),
             child: Center(
               child: Image.asset(
-                'assets/ohnekaffee.png',
-                width: 230,
+                'assets/pizzalogo.png',
+                width: 400,
               ),
             ),
           ),
