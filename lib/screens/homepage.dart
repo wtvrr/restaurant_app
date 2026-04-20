@@ -21,17 +21,6 @@ class Homepage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 32),
-            // Banner image
-            ClipRRect(
-              borderRadius: BorderRadius.circular(18.0),
-              child: Image.asset(
-                'assets/banner2.png',
-                width: double.infinity,
-                height: 210,
-                fit: BoxFit.cover,
-              ),
-            ),
-            const SizedBox(height: 32),
             // Italian quote
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0),
