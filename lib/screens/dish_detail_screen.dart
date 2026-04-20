@@ -40,7 +40,7 @@ class _DishDetailScreenState extends State<DishDetailScreen>
       backgroundColor: const Color(0xFFFFF8F5),
       appBar: AppBar(
         title: Text(
-          dish.name,
+          "Nutritional Info",
           style: const TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white,
